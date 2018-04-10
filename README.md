@@ -1,24 +1,17 @@
 # Realtor.com_Selenium_Automation
-This project automates realtor.com with the use of Selenium and testNg framework on Maven build
+This project automates <a href="https://www.Realtor.com">Realtor.com</a> with the use of Selenium and testNg framework on Maven build to test basic validations.
 
-This project is to test basic validations on Realtor.com
+Steps to run:
 
- 
+1) To run this project, install <a href="https://www.eclipse.org/downloads/">Eclipse (Preferably latest version)</a> , if you do not have one in your local machine.
 
-To run this project, install <a href="https://www.eclipse.org/downloads/">Eclipse (Preferably latest version)</a> , if you do not have one in your local machine.
+2) In eclipse go to Windows >> Perspective >> Open Perspective >> Other >> Git
 
-In eclipse go to Windows >> Perspective >> Open Perspective >> Other >> Git
+3) Then click on “clone a git  Repository and add the clone to this view.
 
-Then click on “clone a git  Repository and add the clone to this view.
+4) Copy and paste this <a href="https://github.com/anjalimutha/Realtor.com_Selenium_Automation/">git repository link</a>  in URL >> click on next >> check directory >> click on Finish
 
-Copy and paste this git repository URL  in URL >> click on next >> check directory >> click on Finish
+5) Then Import the project from the directory
 
-Then Import the project from the directory
+6) In testNg.xml, you can update browser as "chrome" or "firefox" or "edge" and click on run
 
- 
-
-Go to TestNg.xml and click on run
-
-The default browser for run is chrome, user can update it to firefox (currently supported) and run on it as well.
-
-We can easily modify script to run it on different browser.
