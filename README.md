@@ -29,3 +29,5 @@ Noticeable features about the project:
 4) Some widely used functions are created in utils java file which are universal to use. For example click on any element and wait, or wait for title of any page, etc.
 
 5) This project uses a unique feature from testNg which is Assert.assertTrue/False/Equals which verifies boolean condition and if it is not met, it will throw error message. This feature is very useful in debugging the exact line of code for error. This makes debugging easy as it will skip the part of method post failure and jump to next method if the method failed.
+
+6) If a method fails, this code captures the screenshot of the failed page in a new folder ScreenShots and thus it helps in debugging the failure.
