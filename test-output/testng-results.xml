@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="82936" started-at="2018-04-10T04:43:28Z" finished-at="2018-04-10T04:44:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="82936" started-at="2018-04-10T04:43:28Z" finished-at="2018-04-10T04:44:50Z">
+      <class name="testScripts.ValidateSearchResultsForMorganTownWV">
+        <test-method status="PASS" signature="invoke(java.lang.String, java.lang.String)[pri:0, instance:testScripts.ValidateSearchResultsForMorganTownWV@6325a3ee]" name="invoke" is-config="true" duration-ms="17312" started-at="2018-04-10T00:43:28Z" finished-at="2018-04-10T00:43:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.realtor.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoke -->
+        <test-method status="PASS" signature="TC01_Validate_Search_Result()[pri:0, instance:testScripts.ValidateSearchResultsForMorganTownWV@6325a3ee]" name="TC01_Validate_Search_Result" duration-ms="63806" started-at="2018-04-10T00:43:45Z" finished-at="2018-04-10T00:44:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Validate_Search_Result -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:testScripts.ValidateSearchResultsForMorganTownWV@6325a3ee]" name="TearDown" is-config="true" duration-ms="3" started-at="2018-04-10T00:44:49Z" finished-at="2018-04-10T00:44:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_Validate_Search_Result status=SUCCESS method=ValidateSearchResultsForMorganTownWV.TC01_Validate_Search_Result()[pri:0, instance:testScripts.ValidateSearchResultsForMorganTownWV@6325a3ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="cleanUpBrowser()[pri:0, instance:testScripts.ValidateSearchResultsForMorganTownWV@6325a3ee]" name="cleanUpBrowser" is-config="true" duration-ms="1715" started-at="2018-04-10T00:44:49Z" finished-at="2018-04-10T00:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpBrowser -->
+      </class> <!-- testScripts.ValidateSearchResultsForMorganTownWV -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

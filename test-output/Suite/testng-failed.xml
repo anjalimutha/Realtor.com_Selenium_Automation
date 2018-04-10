@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="URL" value="https://www.realtor.com"/>
+    <classes>
+      <class name="testScripts.ValidateSearchResultsForMorganTownWV">
+        <methods>
+          <include name="TearDown"/>
+          <include name="TC01_Validate_Search_Result"/>
+          <include name="cleanUpBrowser"/>
+          <include name="invoke"/>
+        </methods>
+      </class> <!-- testScripts.ValidateSearchResultsForMorganTownWV -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
