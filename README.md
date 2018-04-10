@@ -1,7 +1,7 @@
 # Realtor.com_Selenium_Automation
 This project automates <a href="https://www.Realtor.com">Realtor.com</a> with the use of Selenium and testNg framework on Maven build to test basic validations.
 
-**Steps to run:
+**Steps to run:**
 
 1) To run this project, install <a href="https://www.eclipse.org/downloads/">Eclipse (Preferably latest version)</a> , if you do not have one in your local machine.
 
@@ -19,7 +19,7 @@ This project automates <a href="https://www.Realtor.com">Realtor.com</a> with th
 
 ------------------------------------------------------------------------------------------------------------------
 
-**Noticeable features about the project:
+**Noticeable features about the project:**
 
 1) This project makes use of dynamic xpath on runtime where the if requirement is to click nth element or retrieve nth element (where value of n can be any number (1, 2, 3, etc.) it will provide appropriate runtime xpath for nth number of search result. Thus, any element in DOM can be retrieved on runtime.
 
