@@ -5,7 +5,7 @@ This project is to test basic validations on Realtor.com
 
  
 
-To run this project, install eclipse eclipse (preferably latest version), if you do not have one in your local machine.
+To run this project, install <a href="https://www.eclipse.org/downloads/">Eclipse (Preferably latest version)</a> , if you do not have one in your local machine.
 
 In eclipse go to Windows >> Perspective >> Open Perspective >> Other >> Git
 
